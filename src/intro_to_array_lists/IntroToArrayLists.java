@@ -30,9 +30,10 @@ public class IntroToArrayLists {
 				System.out.println(names.get(k));
 		}
 			// 6. Print all the Strings in reverse order.
-		//	for (int j = 0; j > names.size(); j--) {
-			//	System.out.println("\n");
+			for (int j = 0; j > names.size(); j--) {
+				System.out.println(names.get(j));
 			}
 		// 7. Print only the Strings that have the letter 'e' in them.
 	}
+}
 }

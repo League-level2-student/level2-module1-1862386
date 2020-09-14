@@ -6,7 +6,8 @@ public class GuestBook {
 	// Create a GUI with two buttons. One button reads "Add Name" and the other button reads "View Names".
 	JButton add = new JButton ("Add Name");
 	JButton view = new JButton ("View Names");
-	private Object e;
+	// TODO Auto-generated catch block
+				e.printStackTrace();
 	JButton buttonPressed = (JButton) ((Object) e).getSource();
 	// When the add name button is clicked, display an input dialog that asks the user to enter a name. Add
 	// that name to an ArrayList. When the "View Names" button is clicked, display a message dialog that displays

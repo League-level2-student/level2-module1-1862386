@@ -2,6 +2,7 @@ package intro_to_array_lists;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -39,7 +40,13 @@ public class GuestBook implements ActionListener {
 		JButton buttonPressed = (JButton)  e.getSource();
 		if (buttonPressed == add) {
 			String name = JOptionPane.showInputDialog("What is your name");
-			
+			ArrayList<String> nombre = new ArrayList<String>();
+			nombre.add(name);
 		}
+		String guest = new String ()
+			if (buttonPressed == view) {
+				JOptionPane.showMessageDialog(null, "");
+			}
+		
 	}
 }

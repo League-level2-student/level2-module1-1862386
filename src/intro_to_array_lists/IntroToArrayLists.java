@@ -36,8 +36,8 @@ public class IntroToArrayLists {
 		// 7. Print only the Strings that have the letter 'e' in them.
 			for (int d = 0; d < names.size(); d++) {
 				
-				if (names == "e") {
-					System.out.println(names.add(d));
+			//	if (names == "e") {
+			//		System.out.println(names.add(d));
 			//	}
 			}
 	}

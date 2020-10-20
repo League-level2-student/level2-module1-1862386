@@ -44,6 +44,7 @@ public class GuestBook implements ActionListener {
 			nombre.add(name);
 		}
 		String guest = new String ()
+				//instead of syso do a string so it can run it
 			if (buttonPressed == view) {
 				JOptionPane.showMessageDialog(null, "");
 			}
